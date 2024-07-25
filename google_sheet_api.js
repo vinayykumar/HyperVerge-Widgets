@@ -89,8 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         });
-
-        // Initialize the state of the divs based on checkbox status
+        
         const targetId = checkbox.getAttribute('data-target');
         const targetDiv = document.getElementById(targetId);
 

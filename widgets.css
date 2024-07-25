@@ -12,7 +12,7 @@ body {
 #widgets-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     padding: 32px;
     /* gap: 10px; */
 }
@@ -237,7 +237,47 @@ button:hover{
 }
 
 
+#widget-leaderboard{
+    background-color: #e9e0d9;
+    padding: 32px;
+    line-height: 130%;
+}
 
+#widget-leaderboard ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#widget-leaderboard ul li{
+    background-color: #98633b42;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+#opportunity-list{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#opportunity-list li{
+    line-height: 140%;
+    background-color: #b043415a ;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+#widget-opportunity-board{
+    display: block;
+    padding: 32px;
+    background-color: #f7a5a4;
+}
+
+#widget-opportunity-board p{
+    line-height: 140%;
+}
 
 .steps-tracker input, .til-corner input, .leaderboard input {
     width: 100%;
@@ -274,4 +314,16 @@ button:hover{
 
 .chatgpt button:hover {
     background-color: #0056b3;
+}
+
+#widget-til-corner{
+    background-color: #fad1f8;
+}
+
+#til-log{
+    line-height: 130%;
+}
+
+#widget-til-corner input{
+    width: 100%;
 }

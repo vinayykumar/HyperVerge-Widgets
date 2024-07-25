@@ -17,6 +17,7 @@
     <div id="widget-meta-options" class="special-widget meta-options special">
         <h2>Meta Options</h2>
         <div class="cont">
+            <div><input type="checkbox" id="toggle-weather" checked> Weather</div>
             <div><input type="checkbox" id="toggle-google-slide" checked> Google Slide</div>
             <div><input type="checkbox" id="toggle-google-sheet" checked> Google Spreadsheet</div>
             <div><input type="checkbox" id="toggle-google-form" checked> Google Form</div>
@@ -144,7 +145,7 @@
         <!-- Opportunity Board Widget -->
         <div id="widget-opportunity-board" class="widget opportunity-board toggle-div">
             <h2>Opportunity Board</h2>
-            <p>Opportunities for teams to collaborate and solve problems:</p>
+            <p><b>Opportunities for teams to collaborate and solve problems:</b></p>
             <ul id="opportunity-list">
                 <li>AI team can automate repetitive tasks for the Marketing team.</li>
                 <li>Engineering team can develop in-house tools to replace paid software.</li>
@@ -155,7 +156,7 @@
         <!-- Generic Leaderboard Widget -->
         <div id="widget-leaderboard" class="widget leaderboard toggle-div">
             <h2>Leaderboard</h2>
-            <p>Top Performers:</p>
+            <b><p>Top Performers:</p></b>
             <ul id="leaderboard-list">
                 <li>Most steps walked: Alice (10,000 steps)</li>
                 <li>Most pages read: Bob (50 pages)</li>
@@ -169,31 +170,9 @@
             <h2>TIL (Today I Learned)</h2>
             <input type="text" id="til-input" placeholder="Share something you learned today">
             <button id="share-til">Share</button>
-            <div id="til-log">Latest learning: The importance of code modularity.</div>
+            <div id="til-log"> <b>Latest learning: </b> The importance of code modularity.</div>
         </div>
-
-        <!-- Meta Options Widget -->
     </div>
-    
-    <!-- <section>
-        <div class="shadow"></div>
-
-        <div class="container">
-            <div class="content opacity">
-                <h3 class="title">
-                    About
-                    <div class="border"></div>
-                </h3>
-                <p class="text">*ayushsharma9216@gmail.com </p>
-                <p class="text">*widget & dashboard</p>
-                
-            </div>
-
-            <div class="imgContainer opacity">
-                <img src="img/image.jpg" alt="">
-            </div>
-        </div>
-    </section> -->
     
     <script src="app.js"></script>
     <script src="widgets.js"></script>
